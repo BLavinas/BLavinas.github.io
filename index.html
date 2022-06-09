@@ -16,13 +16,14 @@
     <style>
       .fonteTitulo {
         font-family: 'Open Sans', sans-serif;
+        color: ;
       }
       .fonteDescricao {
         font-family: 'Inter', sans-serif;
-        color: rgb(236, 217, 217);
+        color: #EAFFDA;
       }
       .corDeFundo {
-        background-color: #444140;
+        background-color: #363020;
       }
       .centralizarLista {
         text-align: center;
@@ -40,12 +41,21 @@
         font-style: italic;
         font-weight: bold;
       }
+      .Titulos{
+        color: #A49966;
+      }      
+      .subTitulos {
+        color: #A49966;
+        text-align: center;
+        font-size: 30px;
+      }
+      
     </style>
   </head>
 
 
   <body class="corDeFundo">
-    <h1 class="fonteTitulo centralizarTexto">Bernardo Lavinas</h1>
+    <h1 class="fonteTitulo centralizarTexto Titulos">Bernardo Lavinas</h1>
     <ul class="centralizarLista">
       Índice
       <li><a href="#descricao">Descrição</a></li>
@@ -65,7 +75,7 @@
       alt="Foto de Bernardo Lavinas"
       width="350px"
     />
-    <h3 id="descricao">Descrição</h3>
+    <h3 class="subTitulos" id="descricao">Descrição</h3>
     <p class="fonteDescricao">
       Me chamo <strong>Bernardo Lavinas</strong>, sempre me interessei pela área
       de técnologia e já atuei na área de
@@ -81,14 +91,14 @@
       atualmente moro em <span class="ItalicBold">Lagoa Santa</span>, região metropolitana de
       Belo Horizonte.
     </p>
-    <h3 id="pessoais">Habilidades Pessoais:</h3>
-    <ul>
+    <h3 class="subTitulos" id="pessoais">Habilidades Pessoais:</h3>
+    <ul class="centralizarLista">
       <li>Paciência</li>
       <li>Empatia</li>
       <li>Colaboração</li>
     </ul>
-    <h3 id="profissionais">Habilidades Profissionais:</h3>
-    <ul>
+    <h3 class="subTitulos" id="profissionais">Habilidades Profissionais:</h3>
+    <ul class="centralizarLista">
       <li>
         Análises e alterações superficiais em servidores Web e E-mail com
         objetivo de identificar e solucionar problemas.
