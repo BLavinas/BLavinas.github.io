@@ -3,34 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <title>Bernardo Lavinas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .fonteTitulo {
+        font-family: 'Open Sans', sans-serif;
+      }
+      .fonteDescricao {
+        font-family: 'Inter', sans-serif;
+        color: rgb(236, 217, 217);
+      }
+      .corDeFundo {
+        background-color: #444140;
+      }
+      .centralizarLista {
+        text-align: center;
+        list-style-position:inside;
+      }
+      .centralizarTexto {
+        text-align: center;
+      }
+      .centralizarImagem {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;        
+      }
+    </style>
   </head>
-  <body>
-    <h1>Bernardo Lavinas</h1>
-    <ul>
+
+
+  <body class="corDeFundo">
+    <h1 style="text-align: center;"
+    class="fonteTitulo"
+    
+    >Bernardo Lavinas</h1>
+    <ul class="centralizarLista">
       Índice
       <li><a href="#descricao">Descrição</a></li>
       <li><a href="#pessoais">Habilidades Pessoais</a></li>
       <li><a href="#profissionais">Habilidades Profissionais</a></li>
-      <li><a href="https://blog.betrybe.com/" target="_blank">Site Interessante</a></li>
+      <li>
+        <a href="https://blog.betrybe.com/" target="_blank"
+          >Site Interessante</a
+        >
+      </li>
       <li><a href="#fotoperfil">Foto de Perfil</a></li>
     </ul>
     <img
+      class="centralizarImagem"            
       id="fotoperfil"
       src="imagens/perfil.jpeg"
       alt="Foto de Bernardo Lavinas"
-      width="300px"
+      width="350px"
     />
     <h3 id="descricao">Descrição</h3>
-    <p>
-      Me chamo <strong>Bernardo Lavinas</strong>, sempre tive interesse na área
+    <p class="fonteDescricao">
+      Me chamo <strong>Bernardo Lavinas</strong>, sempre me interessei pela área
       de técnologia e já atuei na área de
-      <strong>Manutenção de Hardware</strong> em uma empresa de manutenção de computadores e
-      <strong>Analista de Suporte nível 2</strong> para uma empresa de
-      hospedagem de sites e e-mails.
+      <strong>Manutenção de Hardware</strong> em uma empresa de manutenção de
+      computadores e <strong>Analista de Suporte nível 2</strong> para uma
+      empresa de hospedagem de sites e e-mails.
       <br />
-      Atualmente sou estudante da <strong>Trybe</strong>, <em>escola de
-      Desenvolvimento Web Full Stack</em>, com o intuito de adquirir novas
-      habilidades e ingressar no mercado de trabalho como desenvolvedor.<br />
+      Atualmente sou estudante da <strong>Trybe</strong>,
+      <em>escola de Desenvolvimento Web Full Stack</em>, com o intuito de
+      adquirir novas habilidades e ingressar no mercado de trabalho como
+      desenvolvedor.<br />
       Nasci no ano de 1989 em <strong>Belo Horizonte - Minas Gerais</strong> e
       atualmente moro em <strong>Lagoa Santa</strong>, região metropolitana de
       Belo Horizonte.
