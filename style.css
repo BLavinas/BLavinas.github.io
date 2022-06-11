@@ -1,6 +1,14 @@
+a:visited{
+    color: #EAFFDA;
+    text-decoration: none;
+}
+a:link{
+    color: #EAFFDA;
+    text-decoration: none;
+}
 .fonteTitulo {
     font-family: 'Open Sans', sans-serif;
-    color: ;
+    font-size: 5.8vw;
   }
   .fonteDescricao {
     font-family: 'Inter', sans-serif;
@@ -12,6 +20,7 @@
   .centralizarLista {
     text-align: center;
     list-style-position:inside;
+    width: 100vw;
   }
   .centralizarTexto {
     text-align: center;
@@ -35,5 +44,25 @@
     text-align: center
   }
   .imagemCurva {
-    border-radius: 50%;
+    margin-top: 50px;
+    border-radius: 50%; 
+    border: solid red 1px;
+    padding: 20px;  
+    width: 25vw;  
   }
+  .buttom {
+      padding:0.60vw ;
+      background-color: #363020;
+      color: antiquewhite;  
+      border-radius: ;
+      margin: 0.2%;
+      font-size: 100%;
+      border-radius: 0.4vw;
+          
+    }
+    nav{
+        padding: 0%;
+    }
+.buttom:hover{
+  background-color: rgb(160, 102, 15);
+  }    
