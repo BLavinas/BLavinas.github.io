@@ -46,7 +46,7 @@ a:link{
   .imagemCurva {
     margin-top: 50px;
     border-radius: 50%; 
-    border: solid red 1px;
+    /* border: solid red 1px; */
     padding: 20px;  
     width: 25vw;  
   }
@@ -65,4 +65,7 @@ a:link{
     }
 .buttom:hover{
   background-color: rgb(160, 102, 15);
+  }
+  #linkButton1 {
+     
   }    
